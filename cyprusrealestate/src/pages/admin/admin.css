@@ -1,0 +1,90 @@
+.inputForm{
+    display: inline-block;
+}
+ .inputForm{
+    padding: 20px;
+}
+.newAdvert form{
+    display: grid;
+    justify-content: center;
+}
+.newAdvert button{
+    margin: 10px;
+    height: fit-content;
+}
+.blogWrap textarea{
+    background-color: white;
+}
+.editblog textarea{
+    background-color: white;
+}
+.editblog{
+    margin: 0px auto;
+    max-width: 1290px;
+    display: block;
+    justify-content: center;
+    display: grid;
+}
+.editchild{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+}
+.delete{
+    background-color: darkred;
+}
+.EditBlogs{
+    display: flex;
+    justify-content: center;
+}
+.EditBlogs button{
+    height: fit-content;
+}
+.editImageWrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.textwrap{
+    display:flex
+}
+.editpostimg {
+    max-width: 200px;
+    max-height: 100px;
+    padding: 5px;
+}
+.selectedImg{
+    position: fixed;
+    background-color: rgba(240, 240, 240, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+transform: translate(-50%, -50%);
+}
+.selectedImg img{
+    padding-top: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.exit{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.exit a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Search{
+    justify-content: center;
+    display: grid;
+    padding-bottom: 50px;
+}

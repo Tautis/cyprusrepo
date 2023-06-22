@@ -1,0 +1,153 @@
+.switch{
+    position: relative;
+    width: 60px;
+    height: 34px;
+}
+select {
+    appearance: none;
+    padding: 5px;
+  }
+  
+  select option {
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+.switch-container{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.switch-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Adjust the position as needed */
+    width: 95%; /* Adjust the width as needed */
+    height: 1px;
+    background-color: #dbdbdb; /* Adjust the color as needed */
+    transform: translateX(-50%);
+  }
+.switch-container
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch2{
+    position: relative;
+    width: 200px;
+    height: 34px;
+}
+.switch2-container{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.switch2-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Adjust the position as needed */
+    width: 95%; /* Adjust the width as needed */
+    height: 1px;
+    background-color: #dbdbdb; /* Adjust the color as needed */
+    transform: translateX(-50%);
+  }
+.switch2-container
+.switch2 input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+    transition: 0.4s;
+}
+.slider2{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    transition: 0.4s;
+    border: 1px solid #dedede;
+    z-index: 100;
+}
+
+.slider::before{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left:4px;
+    bottom:4px;
+    background-color: white;
+    transition: 0.4s;
+}
+.word-gap::after {
+    content: "         ";
+    letter-spacing: 40px;  /* Add multiple spaces between the words */
+  }
+.slider2::before{
+    position: absolute;
+    content: "";
+    height: 34px;
+    width: 100px;
+    left:-1px;
+    bottom:0px;
+    background-color: #4D917E;
+    transition: 0.4s;
+    z-index: -1;
+
+}
+input:checked + .slider{
+    background-color: #4D917E;
+}
+input:checked + .slider::before{
+    transform: translateX(26px);
+}
+
+.slider.rounded{
+    border-radius: 34px;
+}
+
+.slider.rounded::before{
+    border-radius: 50px;
+}
+
+input:checked + .slider2{
+}
+input:checked + .slider2::before{
+    transform: translateX(101px);
+}
+
+.slider2.rounded{
+    border-radius: 34px;
+}
+
+.slider2.rounded::before{
+    border-radius: 50px;
+}

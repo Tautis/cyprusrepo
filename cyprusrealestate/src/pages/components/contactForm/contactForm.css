@@ -1,0 +1,45 @@
+
+
+
+@media screen and (max-width: 900px) {
+
+
+    .form input{
+        width: 90% !important;
+        margin: auto;
+    }
+    .form textarea{
+        width: 90% !important;
+        margin: auto;
+        float: unset;
+    }
+    .form button{
+        width: 200px;
+    }
+    .ContactUsWrap{
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        border-radius: 15px;
+    }
+    .mobilecenter{
+        text-align: center;
+    }
+    .mobilepadding{
+        padding-left: 40px;
+    }
+    .socials{
+        margin-top: 50px;
+    }
+    .contacts img {
+        width: 200px;
+        padding-top: 40px;
+        display: flex;
+        margin: auto;
+    }
+    .form label{
+        padding-top: 10px;
+        width: 90%;
+        margin: auto;
+    }
+}

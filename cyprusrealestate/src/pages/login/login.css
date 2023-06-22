@@ -1,0 +1,8 @@
+.loginform input{
+    margin:auto;
+    margin-bottom: 30px;
+}
+
+.error{
+    color: red;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_1500_x_1500_px_Logo_2" data-name="1500 x 1500 px Logo 2" xmlns="http://www.w3.org/2000/svg" viewBox="185.9 502.89 1156.26 403.19">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 55.23px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #161616;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #479d83;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #161616;
+        stroke-miterlimit: 10;
+        stroke-width: .17px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: MHeiPRC-Heavy, 'MHei PRC';
+        font-size: 152.81px;
+        font-weight: 800;
+      }
+
+      .cls-5, .cls-6 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Layer_30" data-name="Layer 30">
+    <polygon class="cls-4" points="533.69 574.5 482.4 611.77 434.93 577.28 434.76 577.41 288.53 683.65 246.26 714.16 246.26 714.36 221.34 732.47 186.65 684.72 186.01 683.84 185.97 683.79 185.9 683.69 434.75 502.89 434.89 503.09 435.07 503.32 435.29 503.02 533.69 574.5"/>
+    <polygon class="cls-2" points="387.16 830.94 387.16 891.23 185.97 891.23 185.97 683.65 288.53 683.65 246.26 714.16 246.26 830.94 387.16 830.94"/>
+    <circle class="cls-2" cx="433.14" cy="718.49" r="33.63"/>
+  </g>
+  <g id="YourCyprus" class="cls-6">
+    <text class="cls-3" transform="translate(498.44 804.63)"><tspan x="0" y="0">Your</tspan></text>
+    <text class="cls-5" transform="translate(858.14 804.63)"><tspan x="0" y="0">Cyprus</tspan></text>
+  </g>
+  <text class="cls-1" transform="translate(752.09 894.33) scale(1.19 1)"><tspan x="0" y="0">REAL ESTATE</tspan></text>
+</svg>

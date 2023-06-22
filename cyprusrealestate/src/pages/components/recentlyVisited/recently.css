@@ -1,0 +1,21 @@
+.recent-component{
+    padding-top: 50px;
+}
+
+.recent-wrap{
+    display: flex;
+    max-width: 1290px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.recent-wrap img{
+    max-width: 400px;
+    min-width: 400px;
+    height: 300px
+}
+
+.recent-wrap div{
+    max-width: 400px;
+    flex: 1;
+    text-align: left;
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.555" height="115" viewBox="0 0 117.555 115">
+  <defs>
+    <filter id="Rectangle_92" x="0" y="0" width="117.555" height="115" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#f0f4fc"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_121" data-name="Group 121" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_92)">
+      <rect id="Rectangle_92-2" data-name="Rectangle 92" width="99.555" height="97" rx="12" transform="translate(9 6)" fill="rgba(71,157,131,0.1)" opacity="0.75"/>
+    </g>
+    <g id="Flexible_Payment" data-name="Flexible Payment" transform="translate(18.883 27.191)">
+      <path id="Path_77997" data-name="Path 77997" d="M61.228,20H10.561A5.727,5.727,0,0,0,5,25.753V56.864a5.68,5.68,0,0,0,5.561,5.753H61.228a5.681,5.681,0,0,0,5.561-5.753V25.753A5.727,5.727,0,0,0,61.228,20Zm4.188,17.757H6.373V27.813H65.415Z" transform="translate(-5 -20)" fill="#479d83"/>
+    </g>
+  </g>
+</svg>

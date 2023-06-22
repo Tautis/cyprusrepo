@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_1500_x_1500_px_Logo_5" data-name="1500 x 1500 px Logo 5" xmlns="http://www.w3.org/2000/svg" viewBox="185.9 502.89 1156.26 403.19">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-4 {
+        font-family: MHeiPRC-Heavy, 'MHei PRC';
+        font-size: 152.81px;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 55.23px;
+      }
+
+      .cls-5, .cls-4 {
+        fill: #479d83;
+      }
+
+      .cls-4, .cls-6 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Background-2" data-name="Background">
+    <g id="YourCyprus" class="cls-6">
+      <text class="cls-1" transform="translate(475.62 813.12)"><tspan x="0" y="0">Your</tspan></text>
+      <text class="cls-4" transform="translate(835.32 813.12)"><tspan x="0" y="0">Cyprus</tspan></text>
+    </g>
+    <text class="cls-2" transform="translate(729.27 902.81) scale(1.19 1)"><tspan x="0" y="0">REAL ESTATE</tspan></text>
+    <g id="Layer_29" data-name="Layer 29">
+      <polygon class="cls-5" points="510.15 582.69 459.08 619.8 411.8 585.45 411.63 585.58 266.01 691.38 223.92 721.76 223.92 721.97 199.1 740 164.55 692.45 163.91 691.57 163.88 691.52 163.81 691.42 411.62 511.37 411.76 511.57 411.94 511.81 412.16 511.5 510.15 582.69"/>
+      <polygon class="cls-3" points="364.23 838.05 364.23 898.09 163.88 898.09 163.88 691.38 266.01 691.38 223.92 721.76 223.92 838.05 364.23 838.05"/>
+      <circle class="cls-3" cx="410.02" cy="726.08" r="33.49"/>
+    </g>
+  </g>
+</svg>

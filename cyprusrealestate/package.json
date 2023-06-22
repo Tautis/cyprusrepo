@@ -1,0 +1,47 @@
+{
+  "name": "cyprusrealestate",
+  "homepage": ".",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "host": "vite --host"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "i18next": "^22.5.0",
+    "i18next-browser-languagedetector": "^7.0.2",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.0",
+    "react": "^18.2.0",
+    "react-auth-kit": "^2.12.2",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-i18next": "^12.3.1",
+    "react-icons": "^4.8.0",
+    "react-image-gallery": "^1.2.11",
+    "react-router": "^6.13.0",
+    "react-router-dom": "^6.11.1",
+    "react-scroll": "^1.8.9",
+    "react-select": "^5.7.3",
+    "react-toastify": "^9.1.3",
+    "react-world-flags": "^1.5.1",
+    "swiper": "^9.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.2"
+  },
+  "proxy": "http://localhost:8800/api/"
+}

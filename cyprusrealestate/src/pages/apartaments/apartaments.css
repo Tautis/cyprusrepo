@@ -1,0 +1,217 @@
+
+.textLeft{
+    text-align: left;
+}
+
+.textRight{
+    text-align: right;
+}
+
+.textCenter{
+    text-align: center;
+}
+.borderT{
+    border-top: 1px solid black;
+}
+
+.borderB{
+    border-bottom: 1px solid black;
+}
+
+
+
+
+.apartament-container {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 1290px;
+    margin: 0 auto;
+    color: black;
+    }
+
+.price-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 350px;
+    font-size: 27px;
+}
+
+
+.general-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: fit-content;
+    }
+.general-info div{
+    margin: 20px;
+    margin-left: 0;
+}
+.description-wrap{
+    text-align: left;
+}
+.price-wrap p {
+    text-align: center;
+}
+.apartament-leftBox{
+    text-align: left;
+}
+
+#image-gallery { 
+    width: 700px;
+    margin: 0 auto;
+}
+    #image-thumbs { 
+          display: flex; 
+          justify-content: center; 
+          margin-top: 20px;
+        }
+.location_features{
+    text-align: left;
+}
+.image-gallery img{
+}
+.location{
+    color:#479D83;
+    text-align: left !important;
+}
+
+.apartament-rightBox{
+    padding-left: 25px;
+    width: 500px;
+}
+
+.m2bedroomValues{
+    
+text-align: center;
+}
+
+.Name{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+input::placeholder {
+padding: 5px;
+}
+input{
+
+}
+textarea::placeholder{
+    padding: 5px;
+}
+.Name p {
+    margin: 0;
+
+}
+.location-wrap{
+    display: flex;
+}
+
+.bigText{
+    width: 500px;
+}
+
+.lineb{
+    margin:0 auto;
+    width: 1000px;
+    height: 1px;
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 900px) {
+
+.apartament-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+#image-gallery{
+    width: 85vw;
+}
+.more-wrap {
+    display: grid !important;
+}
+.lineb{
+    width: unset;
+}
+.recent-wrap{
+    display: grid !important;
+}
+.bigText {
+    width: unset;
+}
+.general-info {
+width: unset;
+}
+.apartament-rightBox {
+width: 80%;
+margin: auto;
+padding-left: 0;
+}
+.apartament-leftBox h2{
+    width: 80%;
+    margin: 0 auto;
+}
+.image-gallery-thumbnail {
+    width: unset;
+}
+.image-gallery button{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.apartament-container {
+    padding-top: 20px;
+}
+.price-wrap{
+    width: unset;
+}
+.recent-wrap img {
+    max-width: 90% !important;
+    min-width: 90% !important;
+}
+.more-wrap div{
+    text-align: unset !important;
+
+}
+.more-wrap p{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.recent-wrap div{
+    text-align: unset !important;
+    max-width: unset !important;
+}
+
+.more-wrap div{
+    text-align: unset !important;
+    max-width: unset !important;
+}
+.recent-wrap p{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.more-wrap img {
+    max-width: 90% !important;
+    min-width: 90% !important;
+    }
+    .recent-wrap{
+        justify-content: center !important;
+    }
+    .more-wrap{
+        justify-content: center !important;
+    }
+}
